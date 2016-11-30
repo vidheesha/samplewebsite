@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(215, 215, 215);
+}
+div.container {
+    width: 800px;
+    min-height: 612px;
+    padding: 0px;
+}
+.headerDiv {
+   	height: 150px;
+    background-color: #f0f0f0;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 10px solid #e2e2e2;
+    border-bottom: none;
+}
+
+.headerDiv .subheader{
+    font-weight: normal;
+    color: #616161;
+    margin-left: 5px;
+    font-size: 19px;
+}
+.headerDiv .mainheader{
+    margin-bottom: 0px;
+    font-weight: bolder;
+   font-size: 35px;
+}
+.page-header {
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: none;
+    font-family: Georgia,serif;
+}
+.table {
+    overflow: scroll;
+    border: 2px solid #ffffff;
+    margin-bottom: 0px;
+    font-family: arial;
+}
+.customTable {
+    border: 5px solid #DEDEDE;
+    height: 323px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    overflow: scroll;
+}
+.form-control {
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: #ECECEC;
+    border: 1px solid #DEDEDE;
+}
+
+.leftnav {
+    overflow: hidden;
+    border-left: 10px solid #F0F0F0;
+    border-right: 10px solid #F0F0F0;
+    min-height: 460px;
+    background-color: #F0F0F0;
+}
+
+.btn-primary {
+    background-color: #434343;
+    border: 1px solid #434343;
+    width: 95px;
+    height: 50px;
+    font-family: georgia, serif;
+    font-size: 18px;
+}
+div.item1 {
+    background-color: #ffffff;
+    border-right: 3px solid #F0F0F0;
+    border-bottom: 1px solid #ffffff;
+    min-height: 433px;
+    margin-left: 0px;
+}
+tr>td>span {
+    padding-left: 10px;
+}
+div.item2 {
+    margin: 0px;
+    background-color: #ffffff;
+    min-height: 414px;
+    border-left: 3px solid #F0F0F0;
+}
+.table > tbody > tr > td {
+    padding-left: 0px;
+    height: 43px;
+    vertical-align: middle;
+}
+.table > tbody > tr > td:nth-child(2){
+color: #666666;
+}
+
+td:first-child {
+    padding-right: 0px !important;
+    padding-left: 16px !important;
+    width: 112px;
+    font-weight: bold;
+}
+td:last-child {
+     font-weight: bold;
+     text-align: right;
+}
+tbody tr:nth-child(even) {
+    background-color: #EBEBEB;
+    border-radius: 2px;
+}
+.table > tbody > tr:nth-child(even) > td,
+.table > tbody > tr:nth-child(even) > th {
+    border-top: none;
+}
+
+.table > tbody > tr:nth-child(odd) > td,
+.table > tbody > tr:nth-child(odd) > th {
+    background-color: #ffffff;
+    border-top: none;
+}
